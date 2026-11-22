@@ -36,10 +36,6 @@ Grab the modpack file from our Discord server.
 * Watch this quick tutorial video and follow the steps carefully: <https://youtu.be/d34pDKUaFCY>
 * Wait for the installation to finish.
 
-## IMPORTANT KNOWN ISSUE Currently, there is a bug that will cause your entire game to crash if you open the Resource Packs menu or if you disconnect from the server. There's no fix for this right now. Because of this, please make sure to apply any of your personal resource packs from the Main Menu **before you join the server**, not while you are actively playing! We suggest informing both existing and new players about this.
-
-This is a known issue and a fix is planned.
-
 ## Step 3: Connect to the Server
 
 When you boot up the game and go to Multiplayer, our server should already be on your list so you can jump right in! But just in case it's missing, you can add it manually using our IP: `play.floreon.garden`
