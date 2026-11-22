@@ -37,6 +37,6 @@ We are a Philippine-based Minecraft Cobblemon server created for players who sim
 - [The Floreon Constitution](constitution.md) :: The server rules
 - [Pokémon League](pokemon-league/index.md) :: Gym leaders, Elite Four and Champions
 - [Features](features/index.md) :: Voice chat, displays, booster packs and more
-- [How-To's](how-tos/index.md) :: Short guides, like how to create a claim
+- [How-To's](how-tos/index.md) :: Earn money, claims and chest shops
 - [Legendary Structures](legendary-structures/index.md) :: How to summon the legendaries
 :::

@@ -12,6 +12,8 @@ Floreon has a few extra things to try. Pick one to see how it works.
 - [Pasture Loot](pasture-loot.md)
 - [Photography](photography.md)
 - [Trowel](trowel.md)
+- [Battle Tower](battle-tower.md)
+- [Global Trading System (GTS)](gts.md)
 :::
 
 ## Battle gimmicks
