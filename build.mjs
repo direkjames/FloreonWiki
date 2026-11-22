@@ -111,7 +111,7 @@ const ICON = {
   right: '<path d="m9 6 6 6-6 6"/>',
 };
 const icon = (n, s = 18) => `<svg class="ic" width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[n]}</svg>`;
-const LOGO = `<svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><g transform="translate(16 16)"><g fill="#f09bb9"><ellipse cx="0" cy="-8" rx="5.2" ry="7"/><ellipse cx="0" cy="-8" rx="5.2" ry="7" transform="rotate(72)"/><ellipse cx="0" cy="-8" rx="5.2" ry="7" transform="rotate(144)"/><ellipse cx="0" cy="-8" rx="5.2" ry="7" transform="rotate(216)"/><ellipse cx="0" cy="-8" rx="5.2" ry="7" transform="rotate(288)"/></g><circle r="4.2" fill="#ee7f6d"/></g></svg>`;
+const LOGO = `<img class="logo" src="${BASE}logo.webp" width="210" height="86" alt="Floreon">`;
 
 function navHtml(current) {
   const link = (p, label) => `<a href="${urlOf(p)}"${p === current ? ' aria-current="page"' : ''}>${esc(label || p.title)}</a>`;
@@ -126,7 +126,7 @@ function navHtml(current) {
   return `<ul class="top">${loose}${tree.sections.map((s) => `<li>${section(s)}</li>`).join('')}</ul>`;
 }
 
-const themeScript = `try{var t=localStorage.getItem('floreon-wiki-theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='light'}`;
+const themeScript = `try{var t=localStorage.getItem('floreon-wiki-theme');document.documentElement.dataset.theme=t==='dark'?'dark':'light'}catch(e){document.documentElement.dataset.theme='light'}`;
 const css = fs.readFileSync(path.join(root, 'theme/style.css'), 'utf8');
 const js = fs.readFileSync(path.join(root, 'theme/app.js'), 'utf8');
 const ver = { css: hash(css), js: hash(js) };
@@ -145,7 +145,9 @@ function pageHtml(p) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(p.description)}">
 <meta name="color-scheme" content="light dark">
-<link rel="icon" href="${BASE}favicon.svg" type="image/svg+xml">
+<link rel="icon" href="${BASE}icon-48.png" type="image/png" sizes="48x48">
+<link rel="apple-touch-icon" href="${BASE}icon-180.png">
+<meta name="darkreader-lock">
 <script>${themeScript}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -155,7 +157,7 @@ function pageHtml(p) {
 <body>
 <a class="skip" href="#page">Skip to content</a>
 <aside class="side" id="side">
-  <a class="brand" href="${BASE}">${LOGO}<span>Floreon <em>Wiki</em></span></a>
+  <a class="brand" href="${BASE}">${LOGO}<span class="wikitag">Wiki</span></a>
   <button class="searchbtn" type="button" data-search-open>${icon('search')}<span>Search</span><kbd>/</kbd></button>
   <nav aria-label="Wiki pages">${navHtml(p)}</nav>
   <div class="side-foot">
@@ -163,7 +165,7 @@ function pageHtml(p) {
     <button type="button" class="themebtn" data-theme-toggle aria-label="Switch theme"><span class="i-sun">${icon('sun')}</span><span class="i-moon">${icon('moon')}</span></button>
   </div>
 </aside>
-<header class="topbar"><button type="button" class="menubtn" data-menu aria-label="Open menu" aria-expanded="false" aria-controls="side">${icon('menu', 22)}</button><a class="brand" href="${BASE}">${LOGO}<span>Floreon <em>Wiki</em></span></a><button class="searchbtn mini" type="button" data-search-open aria-label="Search">${icon('search', 20)}</button></header>
+<header class="topbar"><button type="button" class="menubtn" data-menu aria-label="Open menu" aria-expanded="false" aria-controls="side">${icon('menu', 22)}</button><a class="brand" href="${BASE}">${LOGO}<span class="wikitag">Wiki</span></a><button class="searchbtn mini" type="button" data-search-open aria-label="Search">${icon('search', 20)}</button></header>
 <div class="scrim" data-scrim></div>
 <main id="page">
   <article class="doc">
