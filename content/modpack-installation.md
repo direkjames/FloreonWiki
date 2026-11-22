@@ -1,7 +1,10 @@
 ---
 title: Modpack Installation
+description: ''
 order: 10
+draft: false
 ---
+
 ![Modpack Installation: screenshot 1](/images/modpack-installation-1.webp)
 
 Follow these simple steps to install the modpack and join our server smoothly.
@@ -38,7 +41,7 @@ Grab the modpack file from our Discord server.
 
 ## Step 3: Connect to the Server
 
-When you boot up the game and go to Multiplayer, our server should already be on your list so you can jump right in! But just in case it's missing, you can add it manually using our IP: `play.floreon.garden`
+When you boot up the game and go to Multiplayer, our server should already be on your list so you can jump right in! But just in case it's missing, you can add it manually using our IP: `cozymon.floreon.asia`
 
 ## Step 4: Need Help?
 
@@ -48,10 +51,16 @@ If you run into any problems or notice missing mods, don't worry! Just open a ti
 
 If you're still having a hard time following the steps above, check out these tutorial videos on how to install our modpack on different clients:
 
-Modrinth - <https://youtu.be/0Skg4Nwzo50>  
-Prism Launcher - <https://youtu.be/FR8PxdOmm8I>  
-SKLauncher - <https://youtu.be/9848wzNv3b8>  
-Curseforge - <https://youtu.be/ErFZMaEmBSk>  
-FastClient - <https://youtu.be/9KpntIk2dGQ>  
-LabyMod - <https://youtu.be/WztIK_Ap2Yc>  
+Modrinth - <https://youtu.be/0Skg4Nwzo50>
+  
+Prism Launcher - <https://youtu.be/FR8PxdOmm8I>
+  
+SKLauncher - <https://youtu.be/9848wzNv3b8>
+  
+Curseforge - <https://youtu.be/ErFZMaEmBSk>
+  
+FastClient - <https://youtu.be/9KpntIk2dGQ>
+  
+LabyMod - <https://youtu.be/WztIK_Ap2Yc>
+  
 TLegacy - <https://youtu.be/d34pDKUaFCY>
