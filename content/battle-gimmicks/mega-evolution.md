@@ -3,7 +3,7 @@ title: Mega Evolution
 order: 10
 ---
 > [!NOTE] Pokémon League rule
-> In Pokémon League battles, Mega Evolution unlocks in the Hoenn League. See [Gimmick rules](../../pokemon-league/gimmick-rules.md).
+> In Pokémon League battles, Mega Evolution unlocks in the Hoenn League. See [Gimmick rules](../pokemon-league/gimmick-rules.md).
 
 ![Mega Evolution: screenshot 1](/images/mega-evolution-1.webp)
 

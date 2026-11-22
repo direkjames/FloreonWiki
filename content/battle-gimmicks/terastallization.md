@@ -3,7 +3,7 @@ title: Terastallization
 order: 14
 ---
 > [!NOTE] Pokémon League rule
-> In Pokémon League battles, Terastallization unlocks in the Paldea League. See [Gimmick rules](../../pokemon-league/gimmick-rules.md).
+> In Pokémon League battles, Terastallization unlocks in the Paldea League. See [Gimmick rules](../pokemon-league/gimmick-rules.md).
 
 ![Terastallization: screenshot 1](/images/terastallization-1.webp)
 

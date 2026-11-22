@@ -3,7 +3,7 @@ title: Gigantamax
 order: 13
 ---
 > [!NOTE] Pokémon League rule
-> In Pokémon League battles, Gigantamax unlocks in the Galar League. See [Gimmick rules](../../pokemon-league/gimmick-rules.md).
+> In Pokémon League battles, Gigantamax unlocks in the Galar League. See [Gimmick rules](../pokemon-league/gimmick-rules.md).
 
 What is 'Gigantamax'?
 

@@ -43,7 +43,7 @@ collections:
 
   - name: gimmicks
     label: Battle gimmicks
-    folder: content/features/battle-gimmicks
+    folder: content/battle-gimmicks
     extension: md
     format: yaml-frontmatter
     create: true

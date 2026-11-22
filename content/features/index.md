@@ -18,12 +18,4 @@ Floreon has a few extra things to try. Pick one to see how it works.
 
 ## Battle gimmicks
 
-In the Pokémon League, each gimmick unlocks in its own region. See the [Gimmick rules](../pokemon-league/gimmick-rules.md) first, then how each one works:
-
-:::contents
-- [Mega Evolution](battle-gimmicks/mega-evolution.md)
-- [Z-Moves](battle-gimmicks/z-moves.md)
-- [Dynamax](battle-gimmicks/dynamax.md)
-- [Gigantamax](battle-gimmicks/gigantamax.md)
-- [Terastallization](battle-gimmicks/terastallization.md)
-:::
+Looking for Mega Evolution, Z-Moves, Dynamax, Gigantamax or Terastallization? See [Battle gimmicks](../battle-gimmicks/index.md).

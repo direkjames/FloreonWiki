@@ -3,7 +3,7 @@ title: Z-Moves
 order: 11
 ---
 > [!NOTE] Pokémon League rule
-> In Pokémon League battles, Z-Moves unlocks in the Alola League. See [Gimmick rules](../../pokemon-league/gimmick-rules.md).
+> In Pokémon League battles, Z-Moves unlocks in the Alola League. See [Gimmick rules](../pokemon-league/gimmick-rules.md).
 
 What are 'Z-Moves'?
 

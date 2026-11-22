@@ -3,7 +3,7 @@ title: Dynamax
 order: 12
 ---
 > [!NOTE] Pokémon League rule
-> In Pokémon League battles, Dynamax unlocks in the Galar League. See [Gimmick rules](../../pokemon-league/gimmick-rules.md).
+> In Pokémon League battles, Dynamax unlocks in the Galar League. See [Gimmick rules](../pokemon-league/gimmick-rules.md).
 
 ![Dynamax: screenshot 1](/images/dynamax-1.webp)
 
