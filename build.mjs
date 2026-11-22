@@ -111,7 +111,7 @@ const ICON = {
   right: '<path d="m9 6 6 6-6 6"/>',
 };
 const icon = (n, s = 18) => `<svg class="ic" width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[n]}</svg>`;
-const LOGO = `<img class="logo" src="${BASE}logo.webp" width="210" height="86" alt="Floreon">`;
+const LOGO = `<img class="logo" src="${BASE}logo.webp" width="210" height="86" alt="Floreon Wiki">`;
 
 function navHtml(current) {
   const link = (p, label) => `<a href="${urlOf(p)}"${p === current ? ' aria-current="page"' : ''}>${esc(label || p.title)}</a>`;
@@ -157,7 +157,7 @@ function pageHtml(p) {
 <body>
 <a class="skip" href="#page">Skip to content</a>
 <aside class="side" id="side">
-  <a class="brand" href="${BASE}">${LOGO}<span class="wikitag">Wiki</span></a>
+  <a class="brand" href="${BASE}">${LOGO}</a>
   <button class="searchbtn" type="button" data-search-open>${icon('search')}<span>Search</span><kbd>/</kbd></button>
   <nav aria-label="Wiki pages">${navHtml(p)}</nav>
   <div class="side-foot">
@@ -165,7 +165,7 @@ function pageHtml(p) {
     <button type="button" class="themebtn" data-theme-toggle aria-label="Switch theme"><span class="i-sun">${icon('sun')}</span><span class="i-moon">${icon('moon')}</span></button>
   </div>
 </aside>
-<header class="topbar"><button type="button" class="menubtn" data-menu aria-label="Open menu" aria-expanded="false" aria-controls="side">${icon('menu', 22)}</button><a class="brand" href="${BASE}">${LOGO}<span class="wikitag">Wiki</span></a><button class="searchbtn mini" type="button" data-search-open aria-label="Search">${icon('search', 20)}</button></header>
+<header class="topbar"><button type="button" class="menubtn" data-menu aria-label="Open menu" aria-expanded="false" aria-controls="side">${icon('menu', 22)}</button><a class="brand" href="${BASE}">${LOGO}</a><button class="searchbtn mini" type="button" data-search-open aria-label="Search">${icon('search', 20)}</button></header>
 <div class="scrim" data-scrim></div>
 <main id="page">
   <article class="doc">
