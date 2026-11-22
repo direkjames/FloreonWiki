@@ -1,7 +1,10 @@
 ---
 title: Welcome to Floreon
+description: ''
 order: 0
+draft: false
 ---
+
 ![Welcome to Floreon: screenshot 1](/images/welcome-1.webp)
 
 We are a Philippine-based Minecraft Cobblemon server created for players who simply want to relax and enjoy the game. The server focuses on peaceful gameplay, slow progression, and a friendly community where everyone can play at their own pace.
@@ -9,7 +12,7 @@ We are a Philippine-based Minecraft Cobblemon server created for players who sim
 ## Server Information
 
 * **Version:** Fabric 1.21.1
-* **Server IP:** `play.floreon.garden`
+* **Server IP:** `cozymon.floreon.asia`
 
 ## Basic Commands
 
@@ -17,10 +20,10 @@ We are a Philippine-based Minecraft Cobblemon server created for players who sim
 | -------------------------------------------- | -------------------------------------------------------------------------- |
 | `/tpa [player]`                              | Send a teleport request to a player                                        |
 | `/tpahere [player]`                          | Send a teleport request to a player to your current location               |
-| `/home set [name]` and `/home delete [name]` | Create or delete a home                                                    |
-| `/home tp [name]`                            | Teleport to a set home                                                     |
+| `/sethome [name]` and `/delhome [name]` | Create or delete a home                                                    |
+| `/home [name]`                            | Teleport to a set home                                                     |
 | `/vote`                                      | Shows the vote links of the server                                         |
-| `/warp tp [name]`                            | Teleport to a warp                                                         |
+| `/warp [name]`                            | Teleport to a warp                                                         |
 | `/spawn`                                     | Teleport to Spawn                                                          |
 | `/msg [player] [message]`                    | Send a private message to a player                                         |
 | `/cobbledollars pay [player] [amount]`       | Send money to other players                                                |
