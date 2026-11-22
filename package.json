@@ -1,0 +1,14 @@
+{
+  "name": "floreon-wiki",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Floreon player wiki (wiki.floreon.asia): guides for the Cozymon Cobblemon server.",
+  "author": "direk james",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "check": "node build.mjs && node scripts/check.mjs"
+  }
+}
