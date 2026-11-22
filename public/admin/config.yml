@@ -1,0 +1,78 @@
+# Sveltia CMS: the admin page for the Floreon wiki (wiki.floreon.asia/admin).
+# Pages are Markdown files in content/. Saving here commits to GitHub and the site republishes in about a minute.
+# The League region pages (content/pokemon-league/regions) are generated from the dkLeague mod, so they are not listed here.
+backend:
+  name: github
+  repo: direkjames/FloreonWiki
+  branch: main
+
+site_url: https://wiki.floreon.asia
+display_url: https://wiki.floreon.asia
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: main
+    label: Main pages
+    files:
+      # The fields of every page are written once here and reused below. The body stays in raw Markdown mode so the wiki syntax (:::contents, > [!NOTE]) is never rewritten.
+      - label: Welcome
+        name: welcome
+        file: content/index.md
+        fields: &page_fields
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text, required: false, hint: "One sentence for search engines. Leave empty to use the start of the page." }
+          - { label: Order, name: order, widget: number, value_type: int, default: 100, min: 0, hint: "Lower numbers come first in the sidebar." }
+          - { label: Draft, name: draft, widget: boolean, default: false, required: false, hint: "A draft is hidden from the public site." }
+          - { label: Body, name: body, widget: markdown, modes: [raw], hint: "Images: upload under Media and use ![What the picture shows](/images/name.webp). Keep images small (WebP, under 500 KB)." }
+
+      - { label: Modpack Installation, name: modpack, file: content/modpack-installation.md, fields: *page_fields }
+      - { label: The Floreon Constitution, name: constitution, file: content/constitution.md, fields: *page_fields }
+      - { label: "Pokémon League: overview", name: league-overview, file: content/pokemon-league/index.md, fields: *page_fields }
+      - { label: "Pokémon League: gimmick rules", name: league-gimmicks, file: content/pokemon-league/gimmick-rules.md, fields: *page_fields }
+      - { label: "Pokémon League: regions page", name: league-regions, file: content/pokemon-league/regions/index.md, fields: *page_fields }
+
+  - name: features
+    label: Features
+    folder: content/features
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    slug: "{{slug}}"
+    fields: *page_fields
+
+  - name: gimmicks
+    label: Battle gimmicks
+    folder: content/features/battle-gimmicks
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    slug: "{{slug}}"
+    fields: *page_fields
+
+  - name: howtos
+    label: How-To's
+    folder: content/how-tos
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    slug: "{{slug}}"
+    fields: *page_fields
+
+  - name: spawns
+    label: Spawns
+    folder: content/spawns
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    slug: "{{slug}}"
+    fields: *page_fields
+
+  - name: legendaries
+    label: Legendary Structures
+    folder: content/legendary-structures
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    slug: "{{slug}}"
+    fields: *page_fields

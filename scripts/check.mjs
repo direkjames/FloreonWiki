@@ -19,7 +19,7 @@ const target = (url) => {
 };
 for (const [f, h] of html) {
   const rel = path.relative(dist, f);
-  if (rel === '404.html') continue;
+  if (rel === '404.html' || rel.startsWith('admin')) continue;
   if ((h.match(/<h1[ >]/g) || []).length !== 1) problems.push(`${rel}: needs exactly one h1`);
   for (const m of h.matchAll(/<img [^>]*>/g)) if (!/ alt="[^"]+"/.test(m[0])) problems.push(`${rel}: image without alt text`);
   for (const m of h.matchAll(/ href="([^"]+)"/g)) {
