@@ -5,6 +5,9 @@ order: 5
 ---
 Some Pokémon were made by people in the games, not born in the wild. On Floreon you can make them yourself in the **Fossil Resurrection Machine** (the monitor and tank from Cobblemon).
 
+> [!NOTE] The only way
+> Mewtwo, Genesect, Magearna and Type: Null do **not** spawn in the wild on Floreon. The Resurrection Machine is the only way to get them. Silvally comes only from evolving a Type: Null.
+
 ## How to use it
 
 1. Put the **two items** for the Pokémon you want into the machine's monitor.

@@ -80,11 +80,6 @@ The following Pokemons below doesn't have any structures yet to manually summon 
   * Is mountain
   * Is badlands
 
-## Genesect
-
-* Biomes:
-  * Is End
-
 ## Meloetta
 
 * Biomes:
@@ -142,12 +137,6 @@ The following Pokemons below doesn't have any structures yet to manually summon 
   * Is Nether
   * Is volcanic
 
-## Type: Null
-
-* Biomes:
-  * Is deep dark
-  * Is End
-
 ## Tapu Koko
 
 * Min. sky light is 8
@@ -179,12 +168,6 @@ The following Pokemons below doesn't have any structures yet to manually summon 
   * Is beach
 
 ## Necrozma
-
-* Biomes:
-  * Is deep dark
-  * Is End
-
-## Magearna
 
 * Biomes:
   * Is deep dark
