@@ -65,6 +65,7 @@ league.regions.forEach((r, idx) => {
     const rewards = [`${t.cd.toLocaleString('en-US')} CobbleDollars`];
     if (t.badge) rewards.push(pretty(t.badge));
     for (const [item, count] of t.items) rewards.push(count > 1 ? `${count} ${pretty(item)}` : pretty(item));
+    for (const e of t.extras || []) rewards.push(e.label);
     return `| ${t.name} | ${role} | ${typeOf(t.id)} | ${t.level} | ${needs} | ${rewards.join(', ')} |`;
   });
   const levels = r.trainers.map((t) => t.level);

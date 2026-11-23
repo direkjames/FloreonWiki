@@ -4,32 +4,6 @@ order: 10
 ---
 The following Pokemons below doesn't have any structures yet to manually summon them. They can only spawn if you meet their spawn requirements.
 
-## Groudon
-
-* Biomes:
-  * Is volcanic
-  * Is desert
-  * Is arid
-  * Is thermal
-  * Is badlands
-
-## Kyogre
-
-* Rainy weather
-* Biomes:
-  * Is deep ocean
-  * Is ocean
-  * Is frozen ocean
-
-## Rayquaza
-
-* Daylight
-* Not raining
-* Biomes:
-  * Is sky
-  * Is End
-  * Is highlands
-
 ## Jirachi
 
 * Biomes:
@@ -83,14 +57,6 @@ The following Pokemons below doesn't have any structures yet to manually summon 
 ## Meloetta
 
 * Biomes:
-  * Is floral
-
-## Xerneas
-
-* Daytime
-* Biomes:
-  * Is forest
-  * Is magical
   * Is floral
 
 ## Yveltal
