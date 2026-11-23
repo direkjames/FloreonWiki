@@ -17,9 +17,9 @@ The Paldea League has 13 trainers, from level 15 to level 62. Beat them in order
 | Tulip | Gym leader | Psychic / Fairy | 40 | Ryme | 9,600 CobbleDollars, Psychic Badge, Twisted Spoon, 3 Max Potion |
 | Grusha | Gym leader | Ice | 48 | Tulip | 9,600 CobbleDollars, Glacier Badge, Never Melt Ice, 3 Max Potion |
 | Rika | Elite Four | Ground | 57 | Grusha | 13,500 CobbleDollars, Soft Sand, 9 Rare Candy, 3 Exp. Candy Large, Ancient Core |
-| Poppy | Elite Four | Steel | 58 | Rika | 13,500 CobbleDollars, Metal Coat, 9 Rare Candy, 3 Exp. Candy Large |
+| Poppy | Elite Four | Steel | 58 | Rika | 13,500 CobbleDollars, Metal Coat, 9 Rare Candy, 3 Exp. Candy Large, Future Time Core |
 | Larry | Elite Four | Flying | 59 | Poppy | 13,500 CobbleDollars, Sharp Beak, 9 Rare Candy, 3 Exp. Candy Large |
-| Hassel | Elite Four | Dragon | 60 | Larry | 13,500 CobbleDollars, Dragon Fang, 9 Rare Candy, 3 Exp. Candy Large |
+| Hassel | Elite Four | Dragon | 60 | Larry | 13,500 CobbleDollars, Dragon Fang, 9 Rare Candy, 3 Exp. Candy Large, Ancient Time Crystal |
 | Geeta | Champion | Mixed | 62 | Rika, Poppy, Larry, Hassel | 27,000 CobbleDollars, 33 Rare Candy, Ability Capsule, Lucky Egg, Terastal Core |
 
 > [!NOTE] Rewards come once

@@ -1,136 +1,52 @@
 ---
-title: Paradox Spawns
+title: Paradox Pokémon
+description: How to call a Paradox Pokémon at the time machines in Area Zero.
 order: 10
 ---
-## Great Tusk
+Paradox Pokémon are called at the **time machines in Area Zero**. Travel there with the warp command `/warp AreaZero`. Area Zero is a huge cavern underground. There are two time machines inside:
 
-* Can see the sky
-* Biome:
-  * Is arid
+- The **Ancient Time Machine**: overgrown, with stone, jungle logs and gold. It brings an **Ancient** Paradox Pokémon from the past.
+- The **Future Time Machine**: iron, black blocks and glass. It brings a **Future** Paradox Pokémon from the future.
 
-## Brute Bonnet
+## What you need
 
-* Can see the sky
-* Biome:
-  * Is jungle
+| Machine | You need |
+|---|---|
+| Ancient Time Machine | **1 Ancient Time Crystal** |
+| Future Time Machine | **1 Future Time Core** |
 
-## Screamtail
+No weather or time is needed. Go to the machine's altar and right-click it. If you don't have the key, the altar tells you. When everything is right, the altar glows for a few seconds and then **one Paradox Pokémon comes through at random**.
 
-* Biomes:
-  * Is dripstone
-  * Is magical
+## Getting the keys
 
-## Fluttermane
+| Key | Beat this trainer in the Paldea League (first win only) | Or buy it in the BP Shop |
+|---|---|---|
+| Ancient Time Crystal | Hassel | 100 BP |
+| Future Time Core | Poppy | 100 BP |
 
-* Biomes:
-  * Is dripstone
-  * Is mountain
+The BP Shop is at the Battle Tower.
 
-## Slitherwing
+## Which Paradox Pokémon come through?
 
-* Can see the sky
-* Biomes:
-  * Is arid
-  * Is jungle
-  * Is badlands
-  * Is crimson
+You can't choose which one. Each machine picks one of ten at random each time.
 
-## Sandy Shocks
+**Ancient Time Machine**
 
-* Biomes:
-  * Is dripstone
-  * Is deep dark
-  * Is hills
-  * Is mountain
+- Great Tusk, Scream Tail, Brute Bonnet, Flutter Mane, Slither Wing, Sandy Shocks and Roaring Moon
+- **Rarer:** Walking Wake, Gouging Fire and Raging Bolt
 
-## Iron Treads
+**Future Time Machine**
 
-* Biomes:
-  * Is arid
-  * Is badlands
-  * Is mountain
+- Iron Treads, Iron Bundle, Iron Hands, Iron Jugulis, Iron Moth, Iron Thorns and Iron Valiant
+- **Rarer:** Iron Leaves, Iron Boulder and Iron Crown
 
-## Iron Bundle
+> [!NOTE] Koraidon and Miraidon
+> Koraidon and Miraidon are not called here. They have their own pages in Legendary Structures.
 
-* Biomes:
-  * Is freezing
-  * Is glacial
-  * Is tundra
+## Good to know
 
-## Iron Hands
-
-* Can see the sky
-* Biome:
-  * Is mountain
-
-## Iron Moth
-
-* Can see the sky
-* Daytime
-* Biome:
-  * Is hills
-
-## Iron Jugulis
-
-* Night time
-* Biome:
-  * Is deep dark
-
-## Iron Thorns
-
-* Night time
-* Biome:
-  * Is mountain
-* Needed nearby blocks:
-  * Lightning Rod
-
-## Roaring Moon
-
-* Night time
-* Biome:
-  * Is mountain
-
-## Iron Valiant
-
-* Night time
-* Biomes:
-  * Is plains
-  * Is dripstone
-* Needed nearby blocks:
-  * Lightning Rod
-
-## Walking Wake
-
-* Biome:
-  * Is deep dark
-
-## Iron Leaves
-
-* Night time
-* Biome:
-  * Is forest
-
-## Gouging Fire
-
-* Daytime
-* Biome:
-  * Is volcanic
-
-## Iron Boulder
-
-* Night time
-* Biomes:
-  * Is mountain
-  * Is forest
-
-## Raging Bold
-
-* Biome:
-  * Is plains
-
-## Iron Crown
-
-* Night time
-* Biomes:
-  * Is lush
-  * Is forest
+- The Paradox Pokémon appears at **level 70**, with a 2% chance of being shiny.
+- For **300 seconds** (5 minutes) only you can battle it or catch it. Other players get a message if they try.
+- If nobody beats it, it disappears after **10 minutes**.
+- After you use a time machine you must wait **24 hours** before you can use that machine again. The two machines count separately.
+- The key is used up each time.
