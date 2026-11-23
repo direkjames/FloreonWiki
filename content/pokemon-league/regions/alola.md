@@ -16,7 +16,7 @@ The Alola League has 13 trainers, from level 14 to level 58. Beat them in order:
 | Nanu | Kahuna | Dark | 43 | Sophocles | 4,950 CobbleDollars, Black Glasses, 3 Max Potion |
 | Mallow | Captain | Grass | 44 | Nanu | 7,200 CobbleDollars, Miracle Seed, 3 Max Potion |
 | Hapu | Kahuna | Ground / Ghost | 48 | Mallow | 7,200 CobbleDollars, Soft Sand, 3 Max Potion |
-| Molayne | Elite Four | Steel | 54 | Hapu | 10,150 CobbleDollars, Metal Coat, 7 Rare Candy, 3 Exp. Candy Large |
+| Molayne | Elite Four | Steel | 54 | Hapu | 10,150 CobbleDollars, Metal Coat, 7 Rare Candy, 3 Exp. Candy Large, Wormhole Shard |
 | Olivia | Elite Four | Rock | 55 | Molayne | 10,150 CobbleDollars, Hard Stone, 7 Rare Candy, 3 Exp. Candy Large |
 | Acerola | Elite Four | Ghost | 55 | Olivia | 10,150 CobbleDollars, Spell Tag, 7 Rare Candy, 3 Exp. Candy Large |
 | Kahili | Elite Four | Flying | 56 | Acerola | 10,150 CobbleDollars, Sharp Beak, 7 Rare Candy, 3 Exp. Candy Large |
