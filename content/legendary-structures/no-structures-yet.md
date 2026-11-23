@@ -4,18 +4,6 @@ order: 10
 ---
 The following Pokemons below doesn't have any structures yet to manually summon them. They can only spawn if you meet their spawn requirements.
 
-## Jirachi
-
-* Biomes:
-  * Is magical
-  * Is mirage island
-  * Is mushroom
-
-## Deoxys
-
-* Biomes:
-  * Is End
-
 ## Manaphy
 
 * Biomes:
@@ -188,19 +176,6 @@ The following Pokemons below doesn't have any structures yet to manually summon 
   * Is floral
   * Is swamp
 
-## Koraidon
-
-* Biomes:
-  * Is badlands
-  * Is savanna
-  * Is plateau
-  * Is mountain
-
-## Miraidon
-
-* Biome:
-  * Is deep dark
-
 ## Okidogi
 
 * Can see the sky
@@ -232,15 +207,3 @@ The following Pokemons below doesn't have any structures yet to manually summon 
 * Biomes:
   * Is swamp
   * Is spooky
-
-## Terapagos
-
-* Min. sky light is 0
-* Max. sky light is 7
-* Max Y = 0 to -32
-* Biomes:
-  * Is mountain
-  * Is magical
-  * Is river
-  * Is jungle
-  * Is cave
